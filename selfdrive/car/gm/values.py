@@ -150,8 +150,6 @@ class CAR(Platforms):
     [GMCarDocs("Chevrolet Trailblazer 2021-22")],
     GMCarSpecs(mass=1345, wheelbase=2.64, steerRatio=16.8, centerToFrontRatio=0.4, tireStiffnessFactor=1.0),
   )
-  # Separate car def is required when there is no ASCM
-  # (for now) unless there is a way to detect it when it has been unplugged...
   CHEVROLET_BOLT_CC = GMPlatformConfig(
     CHEVROLET_BOLT_EUV.car_docs,
     CHEVROLET_BOLT_EUV.specs,
